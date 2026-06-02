@@ -127,7 +127,7 @@
             <h3 class="rules__card-title">Team Selection</h3>
             <p class="rules__card-text">
               Any national or club team is allowed unless specified. No
-              duplicate teamsfirst come, first served. Team changes are not
+              duplicate teams - first come, first served. Team changes are not
               permitted once the tournament begins.
             </p>
           </div>
@@ -210,8 +210,8 @@
             </div>
             <h3 class="rules__card-title">Eligibility</h3>
             <p class="rules__card-text">
-              One entry per player. Players must use their own accountsharing is
-              prohibited. Organizers reserve the right to verify identity if
+              One entry per player. Players must use their own account - sharing
+              is prohibited. Organizers reserve the right to verify identity if
               needed.
             </p>
           </div>
@@ -253,75 +253,262 @@
           </div>
         </div>
 
+        <!-- Matchup panel -->
         <div class="matchup-grid" data-panel="upcoming">
-          <div class="matchup-card">
-            <span class="matchup__round">Round 1</span>
-            <div class="matchup__players">
-              <div class="matchup__player">Player 1</div>
-              <div class="matchup__vs">VS</div>
-              <div class="matchup__player">Player 2</div>
-            </div>
-            <span class="matchup__status matchup__status--upcoming"
-              >Upcoming</span
-            >
-          </div>
-          <div class="matchup-card">
-            <span class="matchup__round">Round 1</span>
-            <div class="matchup__players">
-              <div class="matchup__player">Player 3</div>
-              <div class="matchup__vs">VS</div>
-              <div class="matchup__player">Player 4</div>
-            </div>
-            <span class="matchup__status matchup__status--upcoming"
-              >Upcoming</span
-            >
-          </div>
-          <div class="matchup-card">
-            <span class="matchup__round">Round 1</span>
-            <div class="matchup__players">
-              <div class="matchup__player">Player 5</div>
-              <div class="matchup__vs">VS</div>
-              <div class="matchup__player">Player 6</div>
-            </div>
-            <span class="matchup__status matchup__status--upcoming"
-              >Upcoming</span
-            >
-          </div>
-          <div class="matchup-card">
-            <span class="matchup__round">Round 1</span>
-            <div class="matchup__players">
-              <div class="matchup__player">Player 7</div>
-              <div class="matchup__vs">VS</div>
-              <div class="matchup__player">Player 8</div>
-            </div>
-            <span class="matchup__status matchup__status--upcoming"
-              >Upcoming</span
-            >
-          </div>
-        </div>
-
-        <div class="matchup-grid matchup-grid--hidden" data-panel="results">
-          <div class="matchup-card">
-            <span class="matchup__round">Round 1</span>
-            <div class="matchup__players">
-              <div class="matchup__player matchup__player--winner">
-                Player 2
+          <div class="matchup-battles">
+            <div class="player-card">
+              <div class="card-bg">
+                <div class="card-bg-name">Edly Cenatus</div>
               </div>
-              <div class="matchup__vs">VS</div>
-              <div class="matchup__player matchup__player--loser">Player 1</div>
-            </div>
-            <p class="matchup__result-text">Player 1 lost to Player 2</p>
-          </div>
-          <div class="matchup-card">
-            <span class="matchup__round">Round 1</span>
-            <div class="matchup__players">
-              <div class="matchup__player matchup__player--winner">
-                Player 3
+              <div class="card-header">
+                <img
+                  src="https://img.icons8.com/color/48/shield.png"
+                  class="card-badge-left"
+                  alt="league badge"
+                />
+                <img
+                  src="https://flagcdn.com/w40/br.png"
+                  class="card-badge-right"
+                  alt="flag"
+                />
               </div>
-              <div class="matchup__vs">VS</div>
-              <div class="matchup__player matchup__player--loser">Player 4</div>
+              <div class="card-photo-area">
+                <div class="card-photo-placeholder"></div>
+              </div>
+              <div class="card-number-bubble">91</div>
+              <div class="card-info">
+                <h2 class="card-name">Edly Cenatus</h2>
+                <p class="card-position">Forward</p>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <span class="stat-value">24</span>
+                  <span class="stat-label">WINS</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">0</span>
+                  <span class="stat-label">LOSSES</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">15</span>
+                  <span class="stat-label">POINTS</span>
+                </div>
+              </div>
             </div>
-            <p class="matchup__result-text">Player 4 lost to Player 3</p>
+            <div class="matchup-vs">VS</div>
+            <div class="player-card">
+              <div class="card-bg">
+                <div class="card-bg-name">Mackentoche Destouches</div>
+              </div>
+              <div class="card-header">
+                <img
+                  src="https://img.icons8.com/color/48/shield.png"
+                  class="card-badge-left"
+                  alt="league badge"
+                />
+                <img
+                  src="https://flagcdn.com/w40/fr.png"
+                  class="card-badge-right"
+                  alt="flag"
+                />
+              </div>
+              <div class="card-photo-area">
+                <div class="card-photo-placeholder"></div>
+              </div>
+              <div class="card-number-bubble">31</div>
+              <div class="card-info">
+                <h2 class="card-name">Mackentoche Destouches</h2>
+                <p class="card-position">Forward</p>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <span class="stat-value">20</span>
+                  <span class="stat-label">WINS</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">0</span>
+                  <span class="stat-label">LOSSES</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">12</span>
+                  <span class="stat-label">POINTS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="matchup-battles">
+            <div class="player-card">
+              <div class="card-bg">
+                <div class="card-bg-name">Player 3</div>
+              </div>
+              <div class="card-header">
+                <img
+                  src="https://img.icons8.com/color/48/shield.png"
+                  class="card-badge-left"
+                  alt="league badge"
+                />
+                <img
+                  src="https://flagcdn.com/w40/us.png"
+                  class="card-badge-right"
+                  alt="flag"
+                />
+              </div>
+              <div class="card-photo-area">
+                <div class="card-photo-placeholder"></div>
+              </div>
+              <div class="card-number-bubble">7</div>
+              <div class="card-info">
+                <h2 class="card-name">Player 3</h2>
+                <p class="card-position">Forward</p>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <span class="stat-value">18</span>
+                  <span class="stat-label">WINS</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">2</span>
+                  <span class="stat-label">LOSSES</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">11</span>
+                  <span class="stat-label">POINTS</span>
+                </div>
+              </div>
+            </div>
+            <div class="matchup-vs">VS</div>
+            <div class="player-card">
+              <div class="card-bg">
+                <div class="card-bg-name">Player 4</div>
+              </div>
+              <div class="card-header">
+                <img
+                  src="https://img.icons8.com/color/48/shield.png"
+                  class="card-badge-left"
+                  alt="league badge"
+                />
+                <img
+                  src="https://flagcdn.com/w40/de.png"
+                  class="card-badge-right"
+                  alt="flag"
+                />
+              </div>
+              <div class="card-photo-area">
+                <div class="card-photo-placeholder"></div>
+              </div>
+              <div class="card-number-bubble">14</div>
+              <div class="card-info">
+                <h2 class="card-name">Player 4</h2>
+                <p class="card-position">Forward</p>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <span class="stat-value">16</span>
+                  <span class="stat-label">WINS</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">3</span>
+                  <span class="stat-label">LOSSES</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">10</span>
+                  <span class="stat-label">POINTS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="matchup-battles">
+            <div class="player-card">
+              <div class="card-bg">
+                <div class="card-bg-name">Player 5</div>
+              </div>
+              <div class="card-header">
+                <img
+                  src="https://img.icons8.com/color/48/shield.png"
+                  class="card-badge-left"
+                  alt="league badge"
+                />
+                <img
+                  src="https://flagcdn.com/w40/es.png"
+                  class="card-badge-right"
+                  alt="flag"
+                />
+              </div>
+              <div class="card-photo-area">
+                <div class="card-photo-placeholder"></div>
+              </div>
+              <div class="card-number-bubble">22</div>
+              <div class="card-info">
+                <h2 class="card-name">Player 5</h2>
+                <p class="card-position">Forward</p>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <span class="stat-value">15</span>
+                  <span class="stat-label">WINS</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">4</span>
+                  <span class="stat-label">LOSSES</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">9</span>
+                  <span class="stat-label">POINTS</span>
+                </div>
+              </div>
+            </div>
+            <div class="matchup-vs">VS</div>
+            <div class="player-card">
+              <div class="card-bg">
+                <div class="card-bg-name">Player 6</div>
+              </div>
+              <div class="card-header">
+                <img
+                  src="https://img.icons8.com/color/48/shield.png"
+                  class="card-badge-left"
+                  alt="league badge"
+                />
+                <img
+                  src="https://flagcdn.com/w40/pt.png"
+                  class="card-badge-right"
+                  alt="flag"
+                />
+              </div>
+              <div class="card-photo-area">
+                <div class="card-photo-placeholder"></div>
+              </div>
+              <div class="card-number-bubble">33</div>
+              <div class="card-info">
+                <h2 class="card-name">Player 6</h2>
+                <p class="card-position">Forward</p>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <span class="stat-value">14</span>
+                  <span class="stat-label">WINS</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">4</span>
+                  <span class="stat-label">LOSSES</span>
+                </div>
+                <div class="card-stat-divider"></div>
+                <div class="card-stat">
+                  <span class="stat-value">9</span>
+                  <span class="stat-label">POINTS</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

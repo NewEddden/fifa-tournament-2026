@@ -1,0 +1,34 @@
+[
+  {
+    "players": {
+      "id": 1,
+      "realName": "Edly Cenatus",
+      "gamerTag": "YoungMetroCity",
+      "initials": "XR",
+      "flag": "🇧🇷",
+      "countryChosen": "Brazil",
+      "platform": "PS5",
+      "favTeam": "Real Madrid",
+      "seed": 1,
+      "group": "A",
+      "rank": "champion",
+      "record": {
+        "w": 14,
+        "d": 3,
+        "l": 1
+      },
+      "winRate": 78,
+      "streak": "W5",
+      "goals": 0,
+      "goalsConceded": 0,
+      "cleanSheets": 0,
+      "biggestWin": null,
+      "previousFinish": null,
+      "discord": null,
+      "twitch": null,
+      "youtube": null,
+      "avatarUrl": null,
+      "paymentMethod": "zelle"
+    }
+  }
+]

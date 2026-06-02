@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;500;600&display=swap");
+
 *,
 *::before,
 *::after {
@@ -205,12 +207,6 @@ body {
 
 .home__bottom {
   padding: 0 4rem 3.5rem;
-}
-
-.home__card {
-  position: absolute;
-  bottom: 3rem;
-  right: 4rem;
 }
 
 .home__headline {
@@ -452,14 +448,14 @@ body {
 }
 
 .rules__card-title {
-  font-size: 2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 0.6rem;
 }
 
 .rules__card-text {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.65;
 }
@@ -540,88 +536,208 @@ body {
   color: var(--text);
 }
 
+/* ==================== Matchup Cards (Player Profile) ======================= */
+
 .matchup-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   width: 100%;
+}
+
+.matchup-battles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+}
+
+.matchup-vs {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  text-shadow: 0 0 16px rgba(255, 214, 0, 0.5);
 }
 
 .matchup-grid--hidden {
   display: none;
 }
 
-.matchup-card {
-  background-color: var(--card);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
-  padding: 1.25rem 1.5rem;
+/* ---- Player Card ---- */
+.player-card {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Orange gradient top half */
+.card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 280px;
+  background: linear-gradient(135deg, #ff6a00 0%, #ffb300 100%);
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Large ghost name text behind photo */
+.card-bg-name {
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  font-size: 52px;
+  font-weight: 900;
+  color: rgba(255, 180, 0, 0.45);
+  line-height: 1;
+  letter-spacing: 2px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  width: 280px;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Badge row */
+.card-header {
+  position: relative;
+  z-index: 2;
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  transition: border-color 0.2s;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px 0;
 }
 
-.matchup-card:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+.card-badge-left {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
-.matchup__round {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--muted);
+.card-badge-right {
+  width: 34px;
+  height: 24px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
-.matchup__players {
+/* Photo placeholder - swap for <img> with real photo */
+.card-photo-area {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  overflow: hidden;
+}
+
+.card-photo-placeholder {
+  width: 180px;
+  height: 220px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px 12px 0 0;
+}
+
+/*  
+   <img src="player.png" class="card-photo" alt="Edly Cenatus" />
+
+   .card-photo {
+     width: 200px;
+     height: 240px;
+     object-fit: cover;
+     object-position: top;
+   }
+*/
+
+/* Orange number bubble */
+.card-number-bubble {
+  position: relative;
+  z-index: 3;
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(135deg, #ff6a00, #ffb300);
+  border-radius: 14px;
+  margin: -26px auto 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-.matchup__player {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text);
-  flex: 1;
-}
-
-.matchup__player:last-child {
-  text-align: right;
-}
-
-.matchup__vs {
-  font-size: 0.75rem;
+  justify-content: center;
+  font-size: 22px;
   font-weight: 800;
-  color: var(--gold);
-  letter-spacing: 0.1em;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(255, 100, 0, 0.4);
 }
 
-.matchup__status--upcoming {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--green);
+/* Name + position */
+.card-info {
+  text-align: center;
+  padding: 10px 16px 4px;
+  position: relative;
+  z-index: 2;
+}
+
+.card-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: 0.2px;
+}
+
+.card-position {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #888;
+  font-weight: 400;
+}
+
+/* Stats row */
+.card-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 14px 16px 18px;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 10px;
+}
+
+.card-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: #aaa;
   font-weight: 600;
+  letter-spacing: 0.8px;
 }
 
-.matchup__player--winner {
-  color: var(--green);
+.card-stat-divider {
+  width: 1px;
+  height: 32px;
+  background: #e8e8e8;
 }
-
-.matchup__player--loser {
-  color: var(--muted);
-  text-decoration: line-through;
-}
-
-.matchup__result-text {
-  font-size: 0.8rem;
-  color: var(--muted);
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  padding-top: 0.75rem;
-}
-
 /* ==================== Register ======================= */
 
 .section--register {
@@ -867,8 +983,12 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .matchup-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .matchup-battles {
+    gap: 1rem;
+  }
+
+  .rules__card:last-child {
+    grid-column: 1 / -1;
   }
 }
 
@@ -922,6 +1042,15 @@ body {
 
   .matchup-grid {
     grid-template-columns: 1fr;
+  }
+
+  .matchup-battles {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .matchup-vs {
+    transform: rotate(90deg);
   }
 
   .section--register .section__inner {
