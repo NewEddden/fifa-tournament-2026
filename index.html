@@ -40,7 +40,35 @@
           View Players
         </a>
       </div>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
+
+    <!-- Mobile nav drawer -->
+    <ul class="navbar__drawer" id="navDrawer">
+      <li class="navbar__item">
+        <a class="navbar__link" href="#home" onclick="closeDrawer()">HOME</a>
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#about" onclick="closeDrawer()">ABOUT</a>
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#rules" onclick="closeDrawer()">RULES</a>
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#player" onclick="closeDrawer()"
+          >PLAYERS</a
+        >
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#register" onclick="closeDrawer()"
+          >REGISTER</a
+        >
+      </li>
+    </ul>
 
     <!-- ===== HOME ===== -->
     <div class="section section--home" id="home">
@@ -612,5 +640,23 @@
     </footer>
 
     <script src="./js/main.js"></script>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navDrawer = document.getElementById("navDrawer");
+
+      hamburger.addEventListener("click", () => {
+        const isOpen = navDrawer.classList.toggle("is-open");
+        hamburger.classList.toggle("is-open", isOpen);
+        hamburger.setAttribute(
+          "aria-label",
+          isOpen ? "Close menu" : "Open menu",
+        );
+      });
+
+      function closeDrawer() {
+        navDrawer.classList.remove("is-open");
+        hamburger.classList.remove("is-open");
+      }
+    </script>
   </body>
 </html>
