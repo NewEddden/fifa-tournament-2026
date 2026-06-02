@@ -59,7 +59,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 9999999;
 }
 
 .navbar__logo {
@@ -460,19 +460,19 @@ body {
   line-height: 1.65;
 }
 
-/* ==================== Bracket ======================= */
+/* ==================== Player Cards Section ======================= */
 
-.section--bracket {
+.section--player {
   background-color: var(--mid);
 }
 
-.section--bracket .section__inner {
+.section--player .section__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.bracket__header {
+.player__header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -480,13 +480,13 @@ body {
   margin-bottom: 2rem;
 }
 
-.bracket__header-text {
+.player__header-text {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
 }
 
-.bracket__label {
+.player__label {
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -494,19 +494,19 @@ body {
   font-weight: 600;
 }
 
-.bracket__title {
+.player__title {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
   color: var(--text);
   letter-spacing: -0.01em;
 }
 
-.bracket__subtitle {
+.player__subtitle {
   font-size: 1rem;
   color: var(--muted);
 }
 
-.bracket__tabs {
+.player__tabs {
   display: flex;
   gap: 0.5rem;
   background-color: var(--dark);
@@ -515,7 +515,7 @@ body {
   flex-shrink: 0;
 }
 
-.bracket__tab {
+.player__tab {
   background: transparent;
   border: none;
   color: var(--muted);
@@ -531,7 +531,7 @@ body {
     color 0.2s;
 }
 
-.bracket__tab--active {
+.player__tab--active {
   background-color: var(--blue);
   color: var(--text);
 }
@@ -1034,7 +1034,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .bracket__header {
+  .player__header {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
