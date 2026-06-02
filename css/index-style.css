@@ -978,7 +978,6 @@ body {
 
 /* ==================== Responsive ======================= */
 
-/* ---- Hamburger button (hidden on desktop) ---- */
 .navbar__hamburger {
   display: none;
   flex-direction: column;
@@ -1002,7 +1001,7 @@ body {
     opacity 0.25s;
 }
 
-/* Animated X when open */
+/* Hamburfger menu to x hehe */
 .navbar__hamburger.is-open span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
@@ -1044,13 +1043,11 @@ body {
   letter-spacing: 0.08em;
 }
 
-/* ---- Tablet ---- */
 @media (max-width: 1024px) {
   .rules__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* remove last-child span — it's wrong when grid is already 2-col with odd count */
   .rules__card:last-child {
     grid-column: auto;
   }
@@ -1064,9 +1061,7 @@ body {
   }
 }
 
-/* ---- Mobile (≤768px) ---- */
 @media (max-width: 768px) {
-  /* Navbar */
   .navbar {
     padding: 0 1.25rem;
   }
@@ -1080,9 +1075,9 @@ body {
     display: flex;
   }
 
-  /* Home section */
+  /* ========== Home section ========== */
   .section--home {
-    height: 100svh; /* use svh so address bar doesn't cause overflow */
+    height: 100svh;
     min-height: 580px;
   }
 
@@ -1115,17 +1110,16 @@ body {
     margin-bottom: 1.25rem;
   }
 
-  /* Hide the floating card on small phones — it collides with the headline */
   .home__card {
     display: none;
   }
 
-  /* Section inner */
+  /* ========== Section inner ========== */
   .section__inner {
     padding: 3rem 1.25rem;
   }
 
-  /* About */
+  /* ========== About ==========*/
   .section--about .section__inner {
     flex-direction: column;
     gap: 2rem;
@@ -1136,7 +1130,7 @@ body {
     line-height: 1.4;
   }
 
-  /* Rules */
+  /* ========== Rules ==========*/
   .rules__grid {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -1146,7 +1140,7 @@ body {
     grid-column: auto;
   }
 
-  /* Player section */
+  /* ========== Player section ==========  */
   .player__label {
     text-align: center;
   }
@@ -1173,14 +1167,13 @@ body {
     font-size: 1.1rem;
   }
 
-  /* Make player cards fill the container properly */
   .player-card {
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
   }
 
-  /* Register */
+  /* ========== Register ==========*/
   .section--register .section__inner {
     flex-direction: column;
     gap: 2.5rem;
@@ -1212,7 +1205,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Footer */
+  /* ========== Footer ========== */
   .footer .section__inner {
     flex-direction: column;
     gap: 1.5rem;
@@ -1227,7 +1220,6 @@ body {
   }
 }
 
-/* ---- Small phones (≤390px — iPhone SE, 12 mini, etc.) ---- */
 @media (max-width: 390px) {
   .navbar {
     padding: 0 1rem;
