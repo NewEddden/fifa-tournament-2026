@@ -37,18 +37,96 @@
     </nav>
 
     <div class="section section--home" id="home">
-      <div class="home--text">TOURNAMENT</div>
-      <div class="home--text-left">
-        <h1>Lock in and Join The Tournament</h1>
-        <button><a href="">Join The Tournament</a></button>
+      <div class="home__bg-text">TOURNAMENT</div>
+      <div class="home__overlay"></div>
+      <img
+        class="home__hero-img"
+        src="/assets/images/hero.jpg"
+        alt="Tournament hero"
+      />
+
+      <nav class="home__breadcrumb">
+        <span>FT2026</span>
+        <span class="home__breadcrumb-sep">/</span>
+        <span>FIFA Tournament 2026</span>
+      </nav>
+
+      <div class="home__bottom">
+        <div class="home__left">
+          <h1 class="home__headline">
+            Lock in and<br />Join The<br />Tournament
+          </h1>
+          <a class="home__cta" href="#register">
+            Join The Tournament
+            <i class="ti ti-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
-      <div class="home--video--right">
-        <video src=""></video>
-        <h1>Introduction</h1>
-        <button><a href="">Explore The Tournament</a></button>
+
+      <div class="home__card">
+        <img
+          class="home__card-img"
+          src="/assets/images/card-preview.jpg"
+          alt="Featured match"
+        />
+        <div class="home__card-body">
+          <p class="home__card-label">Group Stage · Live</p>
+          <p class="home__card-title">FIFA World Cup 2026</p>
+          <a class="home__card-link" href="#bracket">
+            View Bracket <i class="ti ti-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
     </div>
-    <div class="section section--about" id="about"></div>
+    <div class="section section--about" id="about">
+      <div class="about__left">
+        <div class="about__avatars">
+          <div
+            style="
+              width: 36px;
+              height: 36px;
+              border-radius: 50%;
+              background: var(--blue);
+              border: 2px solid var(--mid);
+            "
+          ></div>
+          <div
+            style="
+              width: 36px;
+              height: 36px;
+              border-radius: 50%;
+              background: var(--gold);
+              border: 2px solid var(--mid);
+              margin-left: -8px;
+            "
+          ></div>
+          <div
+            style="
+              width: 36px;
+              height: 36px;
+              border-radius: 50%;
+              background: var(--green);
+              border: 2px solid var(--mid);
+              margin-left: -8px;
+            "
+          ></div>
+        </div>
+        <p class="about__trusted">Trusted by 50+<br />Sports Organizations</p>
+      </div>
+
+      <div class="about__right">
+        <p class="about__tagline">
+          <span class="about__tagline--bold"
+            >Dive into the world of thrilling tournaments categorized by their
+            unique features,</span
+          >
+          <span class="about__tagline--muted">
+            rich historical significance, and unforgettable experiences that
+            await you.</span
+          >
+        </p>
+      </div>
+    </div>
     <div class="section section--rules" id="rules"></div>
     <div class="section section--bracket" id="bracket"></div>
     <div class="section section--register" id="register"></div>
