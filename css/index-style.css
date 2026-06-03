@@ -568,6 +568,9 @@ body {
 .matchup-grid--hidden {
   display: none;
 }
+.section--bracket {
+  background: red;
+}
 
 /* ---- Player Card ---- */
 .player-card {
@@ -742,6 +745,7 @@ body {
 
 .section--register {
   background-color: var(--dark);
+  height: 100%;
 }
 
 .section--register .section__inner {
@@ -1042,8 +1046,38 @@ body {
   font-size: 1rem;
   letter-spacing: 0.08em;
 }
+@media (max-width: 1550px) {
+  .home__inner {
+    display: none;
+  }
+  .home__bg-text {
+    font-size: 12rem;
+    top: 25rem;
+  }
+
+  .matchup-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1450px) {
+  .home__bg-text {
+    font-size: 10rem;
+    top: 25rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .home__bg-text {
+    font-size: 8rem;
+    top: 25rem;
+  }
+}
 
 @media (max-width: 1024px) {
+  .home__inner {
+    display: none;
+  }
   .rules__grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1053,11 +1087,18 @@ body {
   }
 
   .matchup-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .matchup-battles {
     gap: 0.75rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .home__bg-text {
+    font-size: 6rem;
+    top: 25rem;
   }
 }
 
@@ -1088,7 +1129,7 @@ body {
   }
 
   .home__bg-text {
-    font-size: clamp(2.5rem, 12vw, 5rem);
+    font-size: clamp(2.5rem, 12vw, 10rem);
     top: 30%;
   }
 
@@ -1181,6 +1222,10 @@ body {
     text-align: center;
   }
 
+  .register__right {
+    width: 80%;
+  }
+
   .register__stats {
     justify-content: center;
   }
@@ -1224,7 +1269,9 @@ body {
   .navbar {
     padding: 0 1rem;
   }
-
+  .home__inner {
+    display: none;
+  }
   .section__inner {
     padding: 2.5rem 1rem;
   }

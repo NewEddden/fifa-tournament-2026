@@ -30,5 +30,101 @@
       "avatarUrl": null,
       "paymentMethod": "zelle"
     }
+  },
+  {
+    "players": {
+      "id": 2,
+      "realName": "Marcus Webb",
+      "gamerTag": "MarcTwelve",
+      "initials": "MW",
+      "flag": "🇩🇪",
+      "countryChosen": "Germany",
+      "platform": "Xbox",
+      "favTeam": "Bayern Munich",
+      "seed": 2,
+      "group": "A",
+      "rank": "runner-up",
+      "record": {
+        "w": 11,
+        "d": 4,
+        "l": 3
+      },
+      "winRate": 61,
+      "streak": "W3",
+      "goals": 0,
+      "goalsConceded": 0,
+      "cleanSheets": 0,
+      "biggestWin": null,
+      "previousFinish": null,
+      "discord": null,
+      "twitch": null,
+      "youtube": null,
+      "avatarUrl": null,
+      "paymentMethod": "zelle"
+    }
+  },
+  {
+    "players": {
+      "id": 3,
+      "realName": "Jordan Reyes",
+      "gamerTag": "JRey_FC",
+      "initials": "JR",
+      "flag": "🇲🇽",
+      "countryChosen": "Mexico",
+      "platform": "PC",
+      "favTeam": "Club America",
+      "seed": 3,
+      "group": "B",
+      "rank": "semifinalist",
+      "record": {
+        "w": 9,
+        "d": 3,
+        "l": 6
+      },
+      "winRate": 50,
+      "streak": "L1",
+      "goals": 0,
+      "goalsConceded": 0,
+      "cleanSheets": 0,
+      "biggestWin": null,
+      "previousFinish": null,
+      "discord": null,
+      "twitch": null,
+      "youtube": null,
+      "avatarUrl": null,
+      "paymentMethod": "cashapp"
+    }
+  },
+  {
+    "players": {
+      "id": 4,
+      "realName": "Devon Ashford",
+      "gamerTag": "D_Ash99",
+      "initials": "DA",
+      "flag": "🇬🇧",
+      "countryChosen": "England",
+      "platform": "PS5",
+      "favTeam": "Arsenal",
+      "seed": 4,
+      "group": "B",
+      "rank": "quarterfinalist",
+      "record": {
+        "w": 7,
+        "d": 5,
+        "l": 6
+      },
+      "winRate": 39,
+      "streak": "D2",
+      "goals": 0,
+      "goalsConceded": 0,
+      "cleanSheets": 0,
+      "biggestWin": null,
+      "previousFinish": null,
+      "discord": null,
+      "twitch": null,
+      "youtube": null,
+      "avatarUrl": null,
+      "paymentMethod": "cashapp"
+    }
   }
 ]

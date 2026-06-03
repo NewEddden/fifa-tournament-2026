@@ -540,7 +540,7 @@
     <div class="section section--bracket"></div>
     <!-- ===== REGISTER ===== -->
     <div class="section section--register" id="register">
-      <div class="section__inner">
+      <div class="section__inner registeringForm">
         <div class="register__left">
           <p class="register__label">Join The Competition</p>
           <h2 class="register__title">Register Your<br />Team Today</h2>
@@ -640,23 +640,5 @@
     </footer>
 
     <script src="./js/main.js"></script>
-    <script>
-      const hamburger = document.getElementById("hamburger");
-      const navDrawer = document.getElementById("navDrawer");
-
-      hamburger.addEventListener("click", () => {
-        const isOpen = navDrawer.classList.toggle("is-open");
-        hamburger.classList.toggle("is-open", isOpen);
-        hamburger.setAttribute(
-          "aria-label",
-          isOpen ? "Close menu" : "Open menu",
-        );
-      });
-
-      function closeDrawer() {
-        navDrawer.classList.remove("is-open");
-        hamburger.classList.remove("is-open");
-      }
-    </script>
   </body>
 </html>
