@@ -31,6 +31,9 @@
           <a class="navbar__link" href="#player">PLAYERS</a>
         </li>
         <li class="navbar__item">
+          <a class="navbar__link" href="#brackets">BRACKETS</a>
+        </li>
+        <li class="navbar__item">
           <a class="navbar__link" href="#register">REGISTER</a>
         </li>
       </ul>
@@ -115,12 +118,125 @@
     <div class="section section--about" id="about">
       <div class="section__inner">
         <div class="about__left">
-          <div class="about__avatars">
-            <div class="about__avatar" style="background: var(--blue)"></div>
-            <div class="about__avatar" style="background: var(--gold)"></div>
-            <div class="about__avatar" style="background: var(--green)"></div>
+          <div class="flyer-container">
+            <div class="flyer">
+              <div class="header">
+                <div class="pitch-lines"></div>
+                <div class="badge">Online Tournament</div>
+                <div class="title">FIFA<br /><span>TOURNAMENT</span></div>
+                <div class="year">2026</div>
+                <p class="subtitle">Compete &bull; Win &bull; Represent</p>
+              </div>
+
+              <!-- BODY -->
+              <div class="body">
+                <!-- Platforms -->
+                <div class="section-label">Platforms</div>
+                <div class="platforms">
+                  <div class="platform-pill">
+                    <span class="icon">🎮</span>
+                    <span class="label">Xbox</span>
+                  </div>
+                  <div class="platform-pill">
+                    <span class="icon">🖥️</span>
+                    <span class="label">PC</span>
+                  </div>
+                  <div class="platform-pill">
+                    <span class="icon">🎯</span>
+                    <span class="label">PS</span>
+                  </div>
+                </div>
+
+                <!-- Prize Pool -->
+                <div class="section-label">Prize Pool</div>
+                <div class="prizes">
+                  <div class="prize-card first">
+                    <div class="prize-place">1st Place</div>
+                    <span class="prize-trophy">🏆</span>
+                    <div class="prize-amount">$200</div>
+                  </div>
+                  <div class="prize-card second">
+                    <div class="prize-place">2nd Place</div>
+                    <span class="prize-trophy">🥈</span>
+                    <div class="prize-amount">$100</div>
+                  </div>
+                  <div class="prize-card third">
+                    <div class="prize-place">3rd Place</div>
+                    <span class="prize-trophy">🥉</span>
+                    <div class="prize-amount">$50</div>
+                  </div>
+                </div>
+
+                <!-- Entry Fee -->
+                <div class="entry-row">
+                  <span class="entry-label">Entry Fee</span>
+                  <span class="entry-amount">$2</span>
+                </div>
+
+                <!-- Rules -->
+                <div class="section-label">Rules</div>
+                <div class="rules">
+                  <div class="rule-item">
+                    <div class="rule-dot"></div>
+                    <span
+                      >Use your native country or current country of residence
+                      (e.g. USA, Haiti)</span
+                    >
+                  </div>
+                  <div class="rule-item">
+                    <div class="rule-dot"></div>
+                    <span
+                      >Only 3 teams allowed: home country, country where you
+                      live, or a team with equal or fewer stars (e.g.
+                      Canada)</span
+                    >
+                  </div>
+                  <div class="rule-item">
+                    <div class="rule-dot"></div>
+                    <span
+                      >Match schedule is set between players - at least 3 time
+                      slots required per week</span
+                    >
+                  </div>
+                </div>
+
+                <!-- Sign Up -->
+                <div class="section-label">Sign Up - Send This Info</div>
+                <div class="signup">
+                  <div class="signup-fields">
+                    <div class="signup-field">
+                      <div class="dot"></div>
+                      Full name
+                    </div>
+                    <div class="signup-field">
+                      <div class="dot"></div>
+                      Email or phone number (best contact)
+                    </div>
+                    <div class="signup-field">
+                      <div class="dot"></div>
+                      Your preferred payment method (Venmo, Zelle, Cash App,
+                      etc.)
+                    </div>
+                    <div class="signup-field">
+                      <div class="dot"></div>
+                      Platform you're playing on
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- FOOTER -->
+              <div class="flyer__footer">
+                <div>
+                  <div class="organizer-label">Organizer</div>
+                  <div class="organizer-name">Mackentoche Destouches</div>
+                </div>
+                <a class="contact-number" href="tel:8484668306"
+                  >(848) 466-8306</a
+                >
+              </div>
+            </div>
           </div>
-          <p class="about__trusted">Team Of 32<br />Fifa Tournament 2026</p>
         </div>
         <div class="about__right">
           <p class="about__tagline">
@@ -537,7 +653,354 @@
         </div>
       </div>
     </div>
-    <div class="section section--bracket"></div>
+
+    <!-- ===== Tournament Brackets ===== -->
+
+    <div class="section section--bracket" id="brackets">
+      <header>
+        <div class="logo">
+          <a href="">FT<span>2026</span></a>
+        </div>
+        <div class="tournament-label">Fifa Tournament 2026</div>
+        <div class="status-pill"><a href="">View All Players</a></div>
+      </header>
+
+      <div id="app">
+        <div class="bracket">
+          <div class="bracket-matches">
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">1</div>
+                <span class="player-flag">🇧🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">YoungMetroCity</div>
+                  <div class="player-name">Edly Cenatus</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">2</div>
+                <span class="player-flag">🇦🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">ElDiablo</div>
+                  <div class="player-name">Carlos Vega</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">3</div>
+                <span class="player-flag">🇫🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">ParisFC</div>
+                  <div class="player-name">Jean Moreau</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">4</div>
+                <span class="player-flag">🇩🇪</span>
+                <div class="player-info">
+                  <div class="player-tag">BayernBoss</div>
+                  <div class="player-name">Klaus Richter</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">5</div>
+                <span class="player-flag">🇪🇸</span>
+                <div class="player-info">
+                  <div class="player-tag">MadridKing</div>
+                  <div class="player-name">Luis Torres</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">6</div>
+                <span class="player-flag">🇮🇹</span>
+                <div class="player-info">
+                  <div class="player-tag">SerieAce</div>
+                  <div class="player-name">Marco Rossi</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">7</div>
+                <span class="player-flag">🇵🇹</span>
+                <div class="player-info">
+                  <div class="player-tag">LisbonLad</div>
+                  <div class="player-name">Nuno Silva</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">8</div>
+                <span class="player-flag">🇳🇱</span>
+                <div class="player-info">
+                  <div class="player-tag">OrangeCrush</div>
+                  <div class="player-name">Daan Visser</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">9</div>
+                <span class="player-flag">🇬🇧</span>
+                <div class="player-info">
+                  <div class="player-tag">LondonFC</div>
+                  <div class="player-name">James Hart</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">10</div>
+                <span class="player-flag">🇧🇪</span>
+                <div class="player-info">
+                  <div class="player-tag">BrusselsX</div>
+                  <div class="player-name">Luca Peeters</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">11</div>
+                <span class="player-flag">🇲🇽</span>
+                <div class="player-info">
+                  <div class="player-tag">AztecFC</div>
+                  <div class="player-name">Diego Reyes</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">12</div>
+                <span class="player-flag">🇯🇵</span>
+                <div class="player-info">
+                  <div class="player-tag">TokyoDrift</div>
+                  <div class="player-name">Kenji Mori</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">13</div>
+                <span class="player-flag">🇰🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">SeoulStrike</div>
+                  <div class="player-name">Min-Jun Lee</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">14</div>
+                <span class="player-flag">🇺🇸</span>
+                <div class="player-info">
+                  <div class="player-tag">NYUnited</div>
+                  <div class="player-name">Tyler Brooks</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">15</div>
+                <span class="player-flag">🇸🇳</span>
+                <div class="player-info">
+                  <div class="player-tag">DakarFC</div>
+                  <div class="player-name">Ibou Diallo</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">16</div>
+                <span class="player-flag">🇳🇬</span>
+                <div class="player-info">
+                  <div class="player-tag">LagosLion</div>
+                  <div class="player-name">Emeka Obi</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bracket">
+          <div class="bracket-matches">
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">1</div>
+                <span class="player-flag">🇧🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">YoungMetroCity</div>
+                  <div class="player-name">Edly Cenatus</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">3</div>
+                <span class="player-flag">🇫🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">ParisFC</div>
+                  <div class="player-name">Jean Moreau</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">5</div>
+                <span class="player-flag">🇪🇸</span>
+                <div class="player-info">
+                  <div class="player-tag">MadridKing</div>
+                  <div class="player-name">Luis Torres</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">7</div>
+                <span class="player-flag">🇵🇹</span>
+                <div class="player-info">
+                  <div class="player-tag">LisbonLad</div>
+                  <div class="player-name">Nuno Silva</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">9</div>
+                <span class="player-flag">🇬🇧</span>
+                <div class="player-info">
+                  <div class="player-tag">LondonFC</div>
+                  <div class="player-name">James Hart</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">11</div>
+                <span class="player-flag">🇲🇽</span>
+                <div class="player-info">
+                  <div class="player-tag">AztecFC</div>
+                  <div class="player-name">Diego Reyes</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">13</div>
+                <span class="player-flag">🇰🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">SeoulStrike</div>
+                  <div class="player-name">Min-Jun Lee</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">15</div>
+                <span class="player-flag">🇸🇳</span>
+                <div class="player-info">
+                  <div class="player-tag">DakarFC</div>
+                  <div class="player-name">Ibou Diallo</div>
+                </div>
+                <span class="platform-badge plat-pc">PC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bracket">
+          <div class="bracket-matches">
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">1</div>
+                <span class="player-flag">🇧🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">YoungMetroCity</div>
+                  <div class="player-name">Edly Cenatus</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">5</div>
+                <span class="player-flag">🇪🇸</span>
+                <div class="player-info">
+                  <div class="player-tag">MadridKing</div>
+                  <div class="player-name">Luis Torres</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+            </div>
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">9</div>
+                <span class="player-flag">🇬🇧</span>
+                <div class="player-info">
+                  <div class="player-tag">LondonFC</div>
+                  <div class="player-name">James Hart</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">13</div>
+                <span class="player-flag">🇰🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">SeoulStrike</div>
+                  <div class="player-name">Min-Jun Lee</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bracket">
+          <div class="bracket-matches">
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">1</div>
+                <span class="player-flag">🇧🇷</span>
+                <div class="player-info">
+                  <div class="player-tag">YoungMetroCity</div>
+                  <div class="player-name">Edly Cenatus</div>
+                </div>
+                <span class="platform-badge plat-ps5">PS5</span>
+              </div>
+              <div class="player--card">
+                <div class="seed-badge">9</div>
+                <span class="player-flag">🇬🇧</span>
+                <div class="player-info">
+                  <div class="player-tag">LondonFC</div>
+                  <div class="player-name">James Hart</div>
+                </div>
+                <span class="platform-badge plat-xbox">XBOX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bracket">
+          <div class="bracket-matches">
+            <div class="match">
+              <div class="player--card">
+                <div class="seed-badge">?</div>
+                <span class="player-flag">🏆</span>
+                <div class="player-info">
+                  <div class="player-tag">TBD</div>
+                  <div class="player-name">Champion</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- ===== REGISTER ===== -->
     <div class="section section--register" id="register">
       <div class="section__inner registeringForm">
@@ -634,6 +1097,7 @@
           <a href="#about">About</a>
           <a href="#rules">Rules</a>
           <a href="#player">Player</a>
+          <a href="#brackets">Brackets</a>
           <a href="#register">Register</a>
         </div>
       </div>

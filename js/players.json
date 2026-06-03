@@ -1,130 +1,426 @@
-[
-  {
-    "players": {
-      "id": 1,
-      "realName": "Edly Cenatus",
-      "gamerTag": "YoungMetroCity",
-      "initials": "XR",
-      "flag": "🇧🇷",
-      "countryChosen": "Brazil",
-      "platform": "PS5",
-      "favTeam": "Real Madrid",
-      "seed": 1,
-      "group": "A",
-      "rank": "champion",
-      "record": {
-        "w": 14,
-        "d": 3,
-        "l": 1
+{
+  "tournament": {
+    "rounds": [
+      {
+        "round": 5,
+        "name": "Round of 16",
+        "players": [
+          {
+            "id": 1,
+            "seed": 1,
+            "gamertag": "YoungMetroCity",
+            "name": "Edly Cenatus",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "platform": "PS5",
+            "stats": {
+              "wins": 4,
+              "losses": 0,
+              "goals": 18,
+              "yellow_cards": 2,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 2,
+            "seed": 2,
+            "gamertag": "ElDiablo",
+            "name": "Carlos Vega",
+            "country": "Argentina",
+            "flag": "🇦🇷",
+            "platform": "XBOX",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 2,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 3,
+            "seed": 3,
+            "gamertag": "ParisFC",
+            "name": "Jean Moreau",
+            "country": "France",
+            "flag": "🇫🇷",
+            "platform": "PC",
+            "stats": {
+              "wins": 1,
+              "losses": 1,
+              "goals": 5,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 4,
+            "seed": 4,
+            "gamertag": "BayernBoss",
+            "name": "Klaus Richter",
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "platform": "PS5",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 1,
+              "yellow_cards": 2,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 5,
+            "seed": 5,
+            "gamertag": "MadridKing",
+            "name": "Luis Torres",
+            "country": "Spain",
+            "flag": "🇪🇸",
+            "platform": "PS5",
+            "stats": {
+              "wins": 2,
+              "losses": 1,
+              "goals": 9,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 6,
+            "seed": 6,
+            "gamertag": "SerieAce",
+            "name": "Marco Rossi",
+            "country": "Italy",
+            "flag": "🇮🇹",
+            "platform": "XBOX",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 0,
+              "yellow_cards": 2,
+              "red_cards": 1
+            }
+          },
+          {
+            "id": 7,
+            "seed": 7,
+            "gamertag": "LisbonLad",
+            "name": "Nuno Silva",
+            "country": "Portugal",
+            "flag": "🇵🇹",
+            "platform": "PC",
+            "stats": {
+              "wins": 1,
+              "losses": 1,
+              "goals": 4,
+              "yellow_cards": 0,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 8,
+            "seed": 8,
+            "gamertag": "OrangeCrush",
+            "name": "Daan Visser",
+            "country": "Netherlands",
+            "flag": "🇳🇱",
+            "platform": "PS5",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 1,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 9,
+            "seed": 9,
+            "gamertag": "LondonFC",
+            "name": "James Hart",
+            "country": "England",
+            "flag": "🇬🇧",
+            "platform": "XBOX",
+            "stats": {
+              "wins": 3,
+              "losses": 1,
+              "goals": 11,
+              "yellow_cards": 3,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 10,
+            "seed": 10,
+            "gamertag": "BrusselsX",
+            "name": "Luca Peeters",
+            "country": "Belgium",
+            "flag": "🇧🇪",
+            "platform": "PS5",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 1,
+              "yellow_cards": 0,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 11,
+            "seed": 11,
+            "gamertag": "AztecFC",
+            "name": "Diego Reyes",
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "platform": "PC",
+            "stats": {
+              "wins": 1,
+              "losses": 1,
+              "goals": 3,
+              "yellow_cards": 2,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 12,
+            "seed": 12,
+            "gamertag": "TokyoDrift",
+            "name": "Kenji Mori",
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "platform": "PS5",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 0,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 13,
+            "seed": 13,
+            "gamertag": "SeoulStrike",
+            "name": "Min-Jun Lee",
+            "country": "South Korea",
+            "flag": "🇰🇷",
+            "platform": "XBOX",
+            "stats": {
+              "wins": 2,
+              "losses": 1,
+              "goals": 7,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 14,
+            "seed": 14,
+            "gamertag": "NYUnited",
+            "name": "Tyler Brooks",
+            "country": "USA",
+            "flag": "🇺🇸",
+            "platform": "PS5",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 1,
+              "yellow_cards": 0,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 15,
+            "seed": 15,
+            "gamertag": "DakarFC",
+            "name": "Ibou Diallo",
+            "country": "Senegal",
+            "flag": "🇸🇳",
+            "platform": "PC",
+            "stats": {
+              "wins": 1,
+              "losses": 1,
+              "goals": 2,
+              "yellow_cards": 1,
+              "red_cards": 0
+            }
+          },
+          {
+            "id": 16,
+            "seed": 16,
+            "gamertag": "LagosLion",
+            "name": "Emeka Obi",
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "platform": "PS5",
+            "stats": {
+              "wins": 0,
+              "losses": 1,
+              "goals": 0,
+              "yellow_cards": 1,
+              "red_cards": 1
+            }
+          }
+        ]
       },
-      "winRate": 78,
-      "streak": "W5",
-      "goals": 0,
-      "goalsConceded": 0,
-      "cleanSheets": 0,
-      "biggestWin": null,
-      "previousFinish": null,
-      "discord": null,
-      "twitch": null,
-      "youtube": null,
-      "avatarUrl": null,
-      "paymentMethod": "zelle"
-    }
-  },
-  {
-    "players": {
-      "id": 2,
-      "realName": "Marcus Webb",
-      "gamerTag": "MarcTwelve",
-      "initials": "MW",
-      "flag": "🇩🇪",
-      "countryChosen": "Germany",
-      "platform": "Xbox",
-      "favTeam": "Bayern Munich",
-      "seed": 2,
-      "group": "A",
-      "rank": "runner-up",
-      "record": {
-        "w": 11,
-        "d": 4,
-        "l": 3
+      {
+        "round": 4,
+        "name": "Quarter Finals",
+        "players": [
+          {
+            "id": 1,
+            "seed": 1,
+            "gamertag": "YoungMetroCity",
+            "name": "Edly Cenatus",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "platform": "PS5"
+          },
+          {
+            "id": 3,
+            "seed": 3,
+            "gamertag": "ParisFC",
+            "name": "Jean Moreau",
+            "country": "France",
+            "flag": "🇫🇷",
+            "platform": "PC"
+          },
+          {
+            "id": 5,
+            "seed": 5,
+            "gamertag": "MadridKing",
+            "name": "Luis Torres",
+            "country": "Spain",
+            "flag": "🇪🇸",
+            "platform": "PS5"
+          },
+          {
+            "id": 7,
+            "seed": 7,
+            "gamertag": "LisbonLad",
+            "name": "Nuno Silva",
+            "country": "Portugal",
+            "flag": "🇵🇹",
+            "platform": "PC"
+          },
+          {
+            "id": 9,
+            "seed": 9,
+            "gamertag": "LondonFC",
+            "name": "James Hart",
+            "country": "England",
+            "flag": "🇬🇧",
+            "platform": "XBOX"
+          },
+          {
+            "id": 11,
+            "seed": 11,
+            "gamertag": "AztecFC",
+            "name": "Diego Reyes",
+            "country": "Mexico",
+            "flag": "🇲🇽",
+            "platform": "PC"
+          },
+          {
+            "id": 13,
+            "seed": 13,
+            "gamertag": "SeoulStrike",
+            "name": "Min-Jun Lee",
+            "country": "South Korea",
+            "flag": "🇰🇷",
+            "platform": "XBOX"
+          },
+          {
+            "id": 15,
+            "seed": 15,
+            "gamertag": "DakarFC",
+            "name": "Ibou Diallo",
+            "country": "Senegal",
+            "flag": "🇸🇳",
+            "platform": "PC"
+          }
+        ]
       },
-      "winRate": 61,
-      "streak": "W3",
-      "goals": 0,
-      "goalsConceded": 0,
-      "cleanSheets": 0,
-      "biggestWin": null,
-      "previousFinish": null,
-      "discord": null,
-      "twitch": null,
-      "youtube": null,
-      "avatarUrl": null,
-      "paymentMethod": "zelle"
-    }
-  },
-  {
-    "players": {
-      "id": 3,
-      "realName": "Jordan Reyes",
-      "gamerTag": "JRey_FC",
-      "initials": "JR",
-      "flag": "🇲🇽",
-      "countryChosen": "Mexico",
-      "platform": "PC",
-      "favTeam": "Club America",
-      "seed": 3,
-      "group": "B",
-      "rank": "semifinalist",
-      "record": {
-        "w": 9,
-        "d": 3,
-        "l": 6
+      {
+        "round": 3,
+        "name": "Semi Finals",
+        "players": [
+          {
+            "id": 1,
+            "seed": 1,
+            "gamertag": "YoungMetroCity",
+            "name": "Edly Cenatus",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "platform": "PS5"
+          },
+          {
+            "id": 5,
+            "seed": 5,
+            "gamertag": "MadridKing",
+            "name": "Luis Torres",
+            "country": "Spain",
+            "flag": "🇪🇸",
+            "platform": "PS5"
+          },
+          {
+            "id": 9,
+            "seed": 9,
+            "gamertag": "LondonFC",
+            "name": "James Hart",
+            "country": "England",
+            "flag": "🇬🇧",
+            "platform": "XBOX"
+          },
+          {
+            "id": 13,
+            "seed": 13,
+            "gamertag": "SeoulStrike",
+            "name": "Min-Jun Lee",
+            "country": "South Korea",
+            "flag": "🇰🇷",
+            "platform": "XBOX"
+          }
+        ]
       },
-      "winRate": 50,
-      "streak": "L1",
-      "goals": 0,
-      "goalsConceded": 0,
-      "cleanSheets": 0,
-      "biggestWin": null,
-      "previousFinish": null,
-      "discord": null,
-      "twitch": null,
-      "youtube": null,
-      "avatarUrl": null,
-      "paymentMethod": "cashapp"
-    }
-  },
-  {
-    "players": {
-      "id": 4,
-      "realName": "Devon Ashford",
-      "gamerTag": "D_Ash99",
-      "initials": "DA",
-      "flag": "🇬🇧",
-      "countryChosen": "England",
-      "platform": "PS5",
-      "favTeam": "Arsenal",
-      "seed": 4,
-      "group": "B",
-      "rank": "quarterfinalist",
-      "record": {
-        "w": 7,
-        "d": 5,
-        "l": 6
+      {
+        "round": 2,
+        "name": "Final",
+        "players": [
+          {
+            "id": 1,
+            "seed": 1,
+            "gamertag": "YoungMetroCity",
+            "name": "Edly Cenatus",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "platform": "PS5"
+          },
+          {
+            "id": 9,
+            "seed": 9,
+            "gamertag": "LondonFC",
+            "name": "James Hart",
+            "country": "England",
+            "flag": "🇬🇧",
+            "platform": "XBOX"
+          }
+        ]
       },
-      "winRate": 39,
-      "streak": "D2",
-      "goals": 0,
-      "goalsConceded": 0,
-      "cleanSheets": 0,
-      "biggestWin": null,
-      "previousFinish": null,
-      "discord": null,
-      "twitch": null,
-      "youtube": null,
-      "avatarUrl": null,
-      "paymentMethod": "cashapp"
-    }
+      {
+        "round": 1,
+        "name": "Champion",
+        "players": [
+          {
+            "id": null,
+            "gamertag": "TBD",
+            "name": null,
+            "country": null,
+            "flag": null,
+            "platform": null
+          }
+        ]
+      }
+    ]
   }
-]
+}
