@@ -649,7 +649,7 @@
 
     <!-- ===== Tournament Brackets ===== -->
 
-    <div class="section section--bracket" id="brackets">
+    <!-- <div class="section section--bracket" id="brackets">
       <header>
         <div class="logo">
           <a href="">FT<span>2026</span></a>
@@ -993,7 +993,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- ===== REGISTER ===== -->
     <div class="section section--register" id="register">
       <div class="section__inner registeringForm">
@@ -1020,13 +1020,19 @@
           </div>
         </div>
         <div class="register__right">
-          <form class="register__form">
+          <form
+            class="register__form"
+            action="https://formspree.io/f/mdavoqee"
+            method="POST"
+          >
             <div class="register__form-group">
               <label class="register__form-label">Your Name</label>
               <input
                 class="register__input"
                 type="text"
+                name="name"
                 placeholder="Full name"
+                required
               />
             </div>
             <div class="register__form-group">
@@ -1034,24 +1040,36 @@
               <input
                 class="register__input"
                 type="tel"
+                name="phone"
                 placeholder="+1 (555) 000-0000"
+                required
               />
             </div>
             <div class="register__form-row">
               <div class="register__form-group">
                 <label class="register__form-label">Available Date</label>
-                <input class="register__input" type="date" />
+                <input
+                  class="register__input"
+                  type="date"
+                  name="available_date"
+                  required
+                />
               </div>
               <div class="register__form-group">
                 <label class="register__form-label">Available Time</label>
-                <input class="register__input" type="time" />
+                <input
+                  class="register__input"
+                  type="time"
+                  name="available_time"
+                  required
+                />
               </div>
             </div>
             <div class="register__form-group">
               <label class="register__form-label">Payment Method</label>
               <div class="register__payment-options">
                 <label class="register__payment-option">
-                  <input type="radio" name="payment" value="zelle" />
+                  <input type="radio" name="payment" value="zelle" required />
                   <span>Zelle</span>
                 </label>
                 <label class="register__payment-option">
